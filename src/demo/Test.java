@@ -25,7 +25,7 @@ public class Test {
 		b1.fuel();
 		
 		Car c= new BMW();   //dynamic polymprphism
-		c.start();
+		Car.start();
 		c.refuel();
 		c.stop();
 	

@@ -8,15 +8,17 @@ public interface Car {
 	//only final n static is alloweed
 	final int wheel=4;
 	
-	public void start();
+	public static void start(){
+		System.out.println("Start in interface");
+	}
 	public void stop();
 	public void refuel();
 }
 
 class BMW implements Car{
 
-	@Override
-	public void start() {
+	
+	public static void start() {
 		System.out.println("start");
 		
 	}

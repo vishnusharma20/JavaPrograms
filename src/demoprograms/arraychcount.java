@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Stack;
 
 public class arraychcount {
 	
@@ -38,35 +39,54 @@ public class arraychcount {
 
 	public static void main(String[] args) {
 		
-		String name="INDIA";
+	//	String name="zztqooauhujtmxnsbzpykwlvpfyqijvdhuhiroodmuxiobyvwwxupqwydkpeebxmfvxhgicuzdealkgxlfmjiucasokrdznmtlwh";
+		//tqauhujtmxnsbzpykwlvpfyqijvdhuhirdmuxiobyvxupqwydkpbxmfvxhgicuzdealkgxlfmjiucasokrdznmtlwh
+		String name="aaccaabbbaad";
 		
-		char[] arr=name.toCharArray();
 		
-		LinkedHashMap<Character, Integer> map= new LinkedHashMap<Character, Integer>();
+		Stack<String> st= new Stack<String>();
+		
+		st.push(name);
+		System.out.println(st);
+		
+		
+		
+		
+		//char[] arr=name.toCharArray();
+		
+	/*	for(int i=0;i<name.length()-2;i++) {
+			
+			
+			if(name.charAt(i)==name.charAt(i+1))  
+			name=name.substring(0,i)+name.substring(i+2,name.length());
+			
+			i=i-1;
+		}
+		System.out.println(name);*/
+		/*for(int i=0;i<arr.length;i++) {
+			if(arr[i]==arr[i+1])
+				break;
+				i=i+2;
+		}*/
+		
+		/*LinkedHashMap<Character, Integer> map= new LinkedHashMap<Character, Integer>();
 		
 		for(char a: arr) {
 			int count=0;
 		if(map.containsKey(a)) {
-			map.put(a, map.get(a)+1);
-			//count++;
-		//	System.out.println(map.get(a));
-			
+			map.put(a, map.get(a)+1);	
 		}
 		else
 			map.put(a, 1);
-
 	}
 		
 	for(Entry<Character, Integer> entry: map.entrySet()) {
+		if(entry.getValue()%2!=0) {
+			System.out.print(entry.getKey());
 			
-	//	System.out.println(entry.getKey() +""+ entry.getValue());
-		
-		if(entry.getValue()==1) {
-			System.out.println(entry.getKey());
-			break;
 		}
 		
-	}
+	}*/
 	
 	
 		

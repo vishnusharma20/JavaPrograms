@@ -13,3 +13,10 @@ interface Sorter{
 	public ListingPage applylowtoHighSorter(String lowtoHigh);
 	public ListingPage applyhightoLowSorter(String hightoLow);
 }
+
+interface X{
+	
+	public static void m() {
+		System.out.println("static method");
+	}
+}

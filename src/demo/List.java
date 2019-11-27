@@ -7,15 +7,15 @@ public class List {
 	public static void main(String[] args) {
 		 
 		
-	//	ArrayList list= new ArrayList();
-		/*
-		ArrayList list = new ArrayList(2);
+		ArrayList list= new ArrayList();
+		
+		//ArrayList list = new ArrayList(2);
 		list.add(1);
 		list.add(2);
 		list.add("A");
 		list.add(null);
 		
-		System.out.println(list);*/
+		System.out.println(list);
 		
 		String name="a!b@c#def$";	
 		

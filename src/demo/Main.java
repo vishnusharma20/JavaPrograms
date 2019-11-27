@@ -5,6 +5,13 @@ class Calculate{
 	public void add() {
 		System.out.println("add in parent class");
 	}
+	
+	public int add(int i) {
+		return i;
+	}
+	public double add(double j) {
+		return j;
+	}
 }
 
 
